@@ -24,6 +24,6 @@ module.exports = {
     title: 'cane sentio dev site',
     name: 'canesentio',
     description: 'my dev site...',
-    siteUrl: 'https://test02.netlify.app'
+    siteUrl: process.env.URL || process.env.VERCEL_URL
   }
 }
