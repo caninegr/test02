@@ -26,12 +26,11 @@ const PoweredByGatsby = () => (
   <Link
     target='_blank'
     title='Gatsby'
-    href='https://www.gatsbyjs.org'
+    href='/'
     rel='noopener'
     sx={styles.link}
   >
-    Powered By
-    {gatsbySVG && <SVG src={gatsbySVG} />}
+    Powered By Cane Sentio
   </Link>
 )
 

@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
-        createDemoPages: true,
+        createDemoPages: false,
         colorMode: false
       }
     },
@@ -24,6 +24,7 @@ module.exports = {
     title: 'cane sentio dev site',
     name: 'canesentio',
     description: 'my dev site...',
-    siteUrl: process.env.URL || process.env.VERCEL_URL
+    //siteUrl: process.env.URL || process.env.VERCEL_URL
+    siteUrl: 'https://test02c.netlify.app'
   }
 }
