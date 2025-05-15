@@ -4,14 +4,25 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
       options: {
         createDemoPages: true,
-        colorMode: true
+        colorMode: false
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap'
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://test02c.netlify.app/',
+        sitemap: 'https://test02c.netlify.app/sitemap-0.xml',
+        policy: [{userAgent: '*', allow: '/'}]
       }
     }
   ],
   // Customize your site metadata
   siteMetadata: {
-    title: 'FlexiBlocks Theme',
-    name: 'FlexiBlocks',
-    description: 'My site description...'
+    title: 'cane sentio dev site',
+    name: 'canesentio',
+    description: 'my dev site...'
   }
 }
