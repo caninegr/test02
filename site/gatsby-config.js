@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://test02c.netlify.app/',
+        host: 'https://test02c.netlify.app',
         sitemap: 'https://test02c.netlify.app/sitemap-0.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
@@ -24,5 +24,6 @@ module.exports = {
     title: 'cane sentio dev site',
     name: 'canesentio',
     description: 'my dev site...'
+    siteUrl: 'https://test02.netlify.app'
   }
 }
