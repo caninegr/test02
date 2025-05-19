@@ -60,7 +60,7 @@ const Seo = ({
   metaTags.push({ name: 'initial-scale', content: '1.0' })
 
   return (
-<Helmet
+  <Helmet
       htmlAttributes={{
         lang: 'en'
       }}
